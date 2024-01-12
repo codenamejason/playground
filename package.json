@@ -1,0 +1,41 @@
+{
+  "name": "gitkudos",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/hardhat",
+      "packages/nextjs"
+    ]
+  },
+  "scripts": {
+    "account": "yarn workspace @gitkudos/hardhat account",
+    "chain": "yarn workspace @gitkudos/hardhat chain",
+    "fork": "yarn workspace @gitkudos/hardhat fork",
+    "deploy": "yarn workspace @gitkudos/hardhat deploy",
+    "verify": "yarn workspace @gitkudos/hardhat verify",
+    "hardhat-verify": "yarn workspace @gitkudos/hardhat hardhat-verify",
+    "compile": "yarn workspace @gitkudos/hardhat compile",
+    "generate": "yarn workspace @gitkudos/hardhat generate",
+    "hardhat:lint": "yarn workspace @gitkudos/hardhat lint",
+    "hardhat:lint-staged": "yarn workspace @gitkudos/hardhat lint-staged",
+    "hardhat:test": "yarn workspace @gitkudos/hardhat test",
+    "test": "yarn hardhat:test",
+    "start": "yarn workspace @gitkudos/nextjs dev",
+    "next:lint": "yarn workspace @gitkudos/nextjs lint",
+    "next:format": "yarn workspace @gitkudos/nextjs format",
+    "next:check-types": "yarn workspace @gitkudos/nextjs check-types",
+    "postinstall": "husky install",
+    "precommit": "lint-staged",
+    "vercel": "yarn workspace @gitkudos/nextjs vercel",
+    "vercel:yolo": "yarn workspace @gitkudos/nextjs vercel:yolo"
+  },
+  "packageManager": "yarn@3.2.3",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  },
+  "resolutions": {
+    "usehooks-ts@^2.7.2": "patch:usehooks-ts@npm:^2.7.2#./.yarn/patches/usehooks-ts-npm-2.7.2-fceffe0e43.patch"
+  }
+}
