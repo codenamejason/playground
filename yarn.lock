@@ -867,7 +867,7 @@ __metadata:
     eslint-plugin-prettier: ^4.2.1
     next: ^13.1.6
     nextjs-progressbar: ^0.0.16
-    postcss: ^8.4.16
+    postcss: ^8.4.31
     prettier: ^2.8.4
     qrcode.react: ^3.1.0
     react: ^18.2.0
@@ -10230,6 +10230,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.3.7":
+  version: 3.3.7
+  resolution: "nanoid@npm:3.3.7"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: d36c427e530713e4ac6567d488b489a36582ef89da1d6d4e3b87eded11eb10d7042a877958c6f104929809b2ab0bafa17652b076cdf84324aa75b30b722204f2
+  languageName: node
+  linkType: hard
+
 "napi-macros@npm:~2.0.0":
   version: 2.0.0
   resolution: "napi-macros@npm:2.0.0"
@@ -11204,17 +11213,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.16":
-  version: 8.4.16
-  resolution: "postcss@npm:8.4.16"
-  dependencies:
-    nanoid: ^3.3.4
-    picocolors: ^1.0.0
-    source-map-js: ^1.0.2
-  checksum: 10eee25efd77868036403858577da0cefaf2e0905feeaba5770d5438ccdddba3d01cba8063e96b8aac4c6daa0ed413dd5ae0554a433a3c4db38df1d134cffc1f
-  languageName: node
-  linkType: hard
-
 "postcss@npm:^8.4.23":
   version: 8.4.27
   resolution: "postcss@npm:8.4.27"
@@ -11223,6 +11221,17 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: 1cdd0c298849df6cd65f7e646a3ba36870a37b65f55fd59d1a165539c263e9b4872a402bf4ed1ca1bc31f58b68b2835545e33ea1a23b161a1f8aa6d5ded81e78
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.31":
+  version: 8.4.33
+  resolution: "postcss@npm:8.4.33"
+  dependencies:
+    nanoid: ^3.3.7
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 6f98b2af4b76632a3de20c4f47bf0e984a1ce1a531cf11adcb0b1d63a6cbda0aae4165e578b66c32ca4879038e3eaad386a6be725a8fb4429c78e3c1ab858fe9
   languageName: node
   linkType: hard
 
